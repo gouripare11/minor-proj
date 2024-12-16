@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.parent{
+    position:sticky;
+    z-index: 0;
+    top: 0px;
+    margin-bottom: 7px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(85, 175, 226, 0.623);
+}
+
+.main nav{
+    padding: 10px;
+}
+
+.main ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main ul li{
+    display: inline;
+    padding: 30px;
+}
+
+.oneA{
+    background-image: url(https://i.etsystatic.com/17492934/r/il/8a2f59/3350895189/il_fullxfull.3350895189_neg8.jpg);
+    background-size: cover;
+    height: 530px;
+    width: 100hw;
+    padding: 50px;
+}
+
+.aaaa{
+    font-size: 50px;
+    text-align: left;
+    margin-top: 300px;
+    text-shadow: 3px 5px 4px white;
+}
+
+.two{
+    padding: 50px;
+}
+
+.two h2{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 43px;
+    text-shadow: 4px 3px 40px rgb(255, 255, 255);
+    margin-left: 700px;
+    margin-top: 60px;
+}
+
+.ff{
+    background-image: url(img/20-200861_cv-resume-flyer-hd-png-download.png);
+    background-size: cover;
+    padding: 50px;
+    height: 600px;
+    width: 100hw;
+}
+
+.pa1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.pa1 button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.pa1 button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.aaaa{
+    font-size: 45px;
+}
+
+.last{
+    background-color:  rgba(85, 175, 226, 0.623);
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 200px; 
+    padding-top: 40px;
+    padding-bottom: 80px;
+    justify-content: space-around;  
+    font-size: 15px;
+    border-top: 4px solid white;
+}
+
+.last ul li{
+    font-size: 20px;
+}
+
+.end{
+    background-color: rgba(85, 175, 226, 0.623);
+    color: rgb(241, 241, 241);
+    font-size: 60px;
+    border-top: 2px solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
